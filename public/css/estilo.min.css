@@ -1,0 +1,35 @@
+
+body{
+    font-family: 'Caesar Dressing', cursive;
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+    
+}
+.navbars{
+    background-color: #B55300;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+.fondo{
+    
+    padding-left: 0%; 
+    width: "auto"; 
+    height: 600px; 
+    background-size: cover;
+    background-image: url("/img/fondo2.png" ) ;
+ 
+}
+.text-center{
+    padding-top: 15%;
+    /* margin-top: 25%; */
+    text-align: center;
+}
+.copy{
+    
+    text-align: center;
+}
+
