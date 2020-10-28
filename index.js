@@ -23,6 +23,9 @@ app.get("/", (req, res, next) => {
 res.render("index");
 });
 
+/*app.get("/", (req, res, next) => {
+  res.render("login");
+  });*/
 
 // Inicializar el servidor en un puerto en específico
 app.listen(5005, () => {
