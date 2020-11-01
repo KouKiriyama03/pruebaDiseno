@@ -24,12 +24,18 @@ res.render("index");
 });*/
 
 /*app.get("/", (req, res, next) => {
+  res.render("nuevo_login");
+});*/
+app.get("/", (req, res, next) => {
+  res.render("registro");
+});
+/*app.get("/", (req, res, next) => {
   res.render("login");
   });*/
 
-  app.get("/", (req, res, next) => {
+ /* app.get("/", (req, res, next) => {
   res.render("formulario");
-  });
+  });*/
 
 // Inicializar el servidor en un puerto en específico
 app.listen(5005, () => {
