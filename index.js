@@ -19,16 +19,16 @@ app.set("view engine", "hbs");
 // Llama las cosas que estan estaticas
 app.use(express.static(path.join(__dirname, "public")));
 // jala archivisto de la vista
-/*app.get("/", (req, res, next) => {
+app.get("/", (req, res, next) => {
 res.render("index");
-});*/
+});
 
 /*app.get("/", (req, res, next) => {
   res.render("nuevo_login");
 });*/
-app.get("/", (req, res, next) => {
+/*app.get("/", (req, res, next) => {
   res.render("registro");
-});
+});*/
 /*app.get("/", (req, res, next) => {
   res.render("login");
   });*/
