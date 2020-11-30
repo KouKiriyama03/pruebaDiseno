@@ -11,10 +11,11 @@ body{
 }
 .navbars{
     font-family: 'Caesar Dressing', cursive;
+    /* font-size: 270px; */
     background-color: #B55300;
-    padding-top: 1%;
-    padding-left: 3%;
-    padding-bottom: 1%;
+    padding-top: 0.2%;
+    padding-left: 47%;
+    padding-bottom: 0.2%;
 }
 .fondo{
     
@@ -25,6 +26,13 @@ body{
     background-image: url("/img/fondo2.png" ) ;
  
 }
+.d-block{
+    padding-left: 0%; 
+    width:1310px; 
+    height: 600px; 
+   
+}
+
 .card{
 background-color: #F88600;
 
@@ -45,6 +53,59 @@ background-color: #F88600;
     
     text-align: center;
 }
+/* nosotros */
+
+.nosotros{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: auto;
+    height: 400px;
+}
+.somos{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 40px;
+    position:absolute ;
+    top: center;
+    right: center;
+    bottom: center;
+    left: 45%;
+    overflow: hidden;
+   
+}
+.ul-estilo{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+}
+.p-estilo{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 40px;
+}
+.p-estilo, .ul-estilo{
+margin:0;
+}
+@keyframes cambiar{
+    0%{ margin-top: 0;  }
+    20%{ margin-top: 0;  }
+
+    25%{ margin-top: -40px;  }
+    50%{ margin-top: -40px;  }
+
+    55%{ margin-top: -80px;  }
+    80%{ margin-top: -88px;  }
+
+    85%{ margin-top: -40px;  }
+    95%{ margin-top: -40px;  }
+
+    100%{ margin-top: -0px;  }
+}
+
+/* fin de nostros */
 
 /* Inicio de registro */
 p {
