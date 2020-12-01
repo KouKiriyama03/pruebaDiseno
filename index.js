@@ -19,9 +19,9 @@ app.set("view engine", "hbs");
 // Llama las cosas que estan estaticas
 app.use(express.static(path.join(__dirname, "public")));
 // jala archivisto de la vista
-app.get("/", (req, res, next) => {
+/*app.get("/", (req, res, next) => {
 res.render("index");
-});
+});*/
 
 /*app.get("/", (req, res, next) => {
   res.render("nuevo_login");
@@ -33,9 +33,9 @@ res.render("index");
   res.render("login");
   });*/
 
- /* app.get("/", (req, res, next) => {
+ app.get("/", (req, res, next) => {
   res.render("formulario");
-  });*/
+  });
 
 // Inicializar el servidor en un puerto en específico
 app.listen(5005, () => {
