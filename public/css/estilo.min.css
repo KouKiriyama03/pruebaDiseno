@@ -7,7 +7,9 @@ body{
 .navbar{
     font-family: 'Caesar Dressing', cursive;
     background-color: black;
-    
+    padding-top: 0.2%;
+    padding-left: 5%;
+    padding-bottom: 0.2%;
 }
 .navbars{
     font-family: 'Caesar Dressing', cursive;
@@ -26,13 +28,14 @@ body{
     background-image: url("/img/fondo2.png" ) ;
  
 }
+/* carrusel */
 .d-block{
-    padding-left: 0%; 
-    width:1310px; 
-    height: 600px; 
+    padding-left: 10%; 
+    width:90%; 
+    height: 500px; 
    
 }
-
+/* fin de carrusel */
 .card{
 background-color: #F88600;
 
@@ -55,40 +58,64 @@ background-color: #F88600;
 }
 /* nosotros */
 
+.subheading1{
+   padding-left: 490px;
+width: 690px;
+height: 32px;
+}
+.subheading2{
+    padding-left: 500px;
+ width: 835px;
+ height: 32px;
+ }
 .nosotros{
     padding-top: 100px;
     padding-bottom: 100px;
     width: auto;
-    height: 400px;
+    height: 1300px;
 }
-.somos{
-    display: flex;
-    width: 300px;
-    height: 40px;
-    color: #FFFFFF;
-    font-size: 40px;
-    line-height: 40px;
-    position:absolute ;
-    top: center;
-    right: center;
-    bottom: center;
-    left: 45%;
-    overflow: hidden;
+.parrafo{
+    padding-left: 40%;
    
 }
-.ul-estilo{
-    list-style: none;
-    padding-left: 10px;
-    animation: cambiar 7s infinite;
+.imagen{
+    width: 600px;
+    height: 300px;
+    padding-right: 15px;
+    
+}
+
+.somos{
+    display: flex;
+    padding-left: 5%;
+    width: 1200px;
+    height: 300px;
+    padding-bottom: 250px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 40px;
+    position:absolute ;
+    bottom: center;
+    overflow: hidden;
+ 
 }
 .p-estilo{
+    font-size: 50px;
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+ .ul-estilo{
     list-style: none;
-    padding-left: 10px;
-    font-size: 40px;
-}
-.p-estilo, .ul-estilo{
-margin:0;
-}
+    padding-left: 25px;
+    animation: cambiar 15s infinite;
+ }
+ .imagen.ul-estilo{
+     margin: 0;
+ }
+    
 @keyframes cambiar{
     0%{ margin-top: 0;  }
     20%{ margin-top: 0;  }
@@ -99,14 +126,25 @@ margin:0;
     55%{ margin-top: -80px;  }
     80%{ margin-top: -88px;  }
 
-    85%{ margin-top: -40px;  }
-    95%{ margin-top: -40px;  }
+    85%{ margin-top: 0px;  }
+    95%{ margin-top: 0px;  }
 
-    100%{ margin-top: -0px;  }
+    100%{ margin-top: 0px;  }
+}
+ .unirse{
+     padding-top: 450px;
+ }
+/* fin de nostros */
+/* paginas */
+.pagination{
+    padding-top: 400px;
 }
 
-/* fin de nostros */
+.pagination>li>a { border-radius: 50% !important;margin: 0 5px; color: #F88600;
+border-color: #B55300;
+ }
 
+/* fin de paginas */
 /* Inicio de registro */
 p {
     font-size: 14px;
