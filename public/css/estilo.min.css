@@ -11,6 +11,11 @@ body{
     padding-left: 5%;
     padding-bottom: 0.2%;
 }
+.servicios{
+    font-family: 'Oswald';
+    font-size: 57px;
+  
+  }
 .navbars{
     font-family: 'Caesar Dressing', cursive;
     /* font-size: 270px; */
@@ -41,7 +46,7 @@ background-color: #F88600;
 
 }
 .grid {
-
+    background-color: #F88600;
     padding-top: 5%;
     padding-left: 10%;
     padding-bottom: 5%;
@@ -335,8 +340,6 @@ a {
     text-decoration: none;
     margin: 15px 0;
 }
-
-
 .but {
     border-radius: 20px;
     border: 1px solid #FFFFFF;
@@ -613,7 +616,43 @@ input {
 }
 
   /* Fin Formulario */
+/* Inicio manual */
+.bs-example{
+    margin: 20px;        
+}
 
+  .descarga-aqui{
+    font-family: 'Oswald';
+    font-size: 50px;
+  
+  }
+  .separar{
+    background-color: #B55300;
+    padding-top: 1%;
+    padding-left: 37%;
+    padding-bottom: 0.2%;
+  }
+  .descarga {
+    min-height: 100px;
+    font-family: Roboto, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    padding: 20px;
+  }
+  .descarga .dribbble {
+    position: fixed;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+  }
+  .descarga .dribbble img {
+    display: block;
+    height: 28px;
+  }
+  
+/* Fin manual */
 /* inicio del Footer */
 .footer{
     background-color: #393E46;
