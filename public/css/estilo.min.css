@@ -636,6 +636,7 @@ input {
     height:315px ;
 
   }
+  
   .separar{
     background-color: #B55300;
     padding-top: 1%;
@@ -668,7 +669,11 @@ input {
   .btn-descarga:hover{
     transform: scale(1.2);
   }
- 
+  @media screen and (max-width:900px){
+    .video{
+        width: 84%;
+    }
+}
   
 /* Fin manual */
 /* inicio del Footer */
@@ -693,7 +698,4 @@ input {
             font-size: 16px;
             padding-right: 5%;
         }
-
-        
-    
-/* Fin del Footer */
+        /* Fin del Footer */
